@@ -53,8 +53,8 @@ body{
     --border-color:  #7FA4FF !important;
 }
 .success{
-    --background: #8B4870 !important;
-    --border-color:  #8B4870!important;
+    --background: #9968A9 !important;
+    --border-color:  #9968A9!important;
     
 }
 
@@ -81,4 +81,13 @@ body{
     background-color: white;
     color: #8B95AE;
     border-radius: 100px !important;
+}
+.ion-color-success{
+    --ion-color-base: #7FA4FF !important
+}
+.ion-color-danger{
+    --ion-color-base: #8B4870 !important
+}
+.searchbar-input{
+    -webkit-box-shadow: none !important;
 }
