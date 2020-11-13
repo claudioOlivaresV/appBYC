@@ -10,10 +10,13 @@ const routes: Routes = [
     path: 'main',
     loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardModule)
   },
- 
+  {
+    path: 'admin',
+    loadChildren: () => import('./admin/admin.module').then( m => m.AdminModule)
+  },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'admin',
     pathMatch: 'full'
   },
 ];

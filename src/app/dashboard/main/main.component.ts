@@ -13,7 +13,7 @@ export class MainComponent implements OnInit {
   ngOnInit() {}
   goToAdmin(){
     console.log('click');
-    this.router.navigate(['/main/admin']);
+    this.router.navigate(['/home/tab1']);
   }
 
 }
